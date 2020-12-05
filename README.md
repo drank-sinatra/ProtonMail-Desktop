@@ -1,5 +1,4 @@
 # ProtonMail Desktop
-- - - -
 
 ## Preface
 ProtonMail is designed to be used as a web application in order to maintain the integrity of the messages contained in one’s account. Proton does of course have the bridge client for macOS and Windows, but this opens users up to inadvertent data exfiltration as there are now local copies of messages in the user’s chosen desktop email application. This application is built using [Nativefier](https://github.com/jiahaog/Nativefier), which leverages [Electron](https://www.electronjs.org/) to wrap any web app into a desktop version for Windows, macOS, and Linux. The benefit to this vice Proton’s bridge is that no local copies of messages are stored whilst allowing for a traditional email client feel with desktop notifications and the like. 
